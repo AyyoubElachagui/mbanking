@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProjectMobile</string>
+    <string name="linkface">
+        <a href="http://www.facebook.com">FaceBook</a>
+    </string>
+    <string name="linklinke">
+        <a href="http://www.linkedin.com">LinkeDin</a>
+    </string>
+    <string name="linkyoutube">
+        <a href="http://www.youtube.com">YouTube</a>
+    </string>
+</resources>

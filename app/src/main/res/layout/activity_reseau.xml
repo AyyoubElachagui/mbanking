@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reseau">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="101dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d" />
+
+    <TextView
+        android:id="@+id/linkfb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/linkface"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="66dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/youtube" />
+
+    <TextView
+        android:id="@+id/linkyoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="54dp"
+        android:text="@string/linkyoutube"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/linklinke" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/linkedin" />
+
+    <TextView
+        android:id="@+id/linklinke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:text="@string/linklinke"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/linkfb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
